@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<center>
+<div class="text">
+    <h2>*CALCULATOR*</h2>
+</div>  
+<div class="main">
+    <div>
+        <input id="onclick" type="text" class="input">
+    </div>
+    <div>
+        <button type="button" class="button btn btn-outline-primary" onclick="getnum('(')">(</button>
+        <button type="button" class="button btn btn-outline-primary" onclick="getnum(')')">)</button>
+        <button type="button" class="button btn btn-outline-danger" onclick="clearall()">C</button>
+        <button type="button" class="button btn btn-outline-success" onclick="getnum('+')">+</button>
+    </div>
+    <div>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('7')">7</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('8')">8</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('9')">9</button>
+        <button type="button" class="button btn btn-outline-success" onclick="getnum('-')">-</button>
+    </div>
+    <div>
+        <button type="button" class="button btn btn-outline-info"onclick="getnum('4')" >4</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('5')">5</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('6')">6</button>
+        <button type="button" class="button btn btn-outline-success"onclick="getnum('*')" >*</button>
+    </div>
+    <div>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('1')">1</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('2')">2</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('3')">3</button>
+        <button type="button" class="button btn btn-outline-success" onclick="getnum('/')">/</button>
+    </div>
+    <div>
+        <button type="button" class="button btn btn-outline-info"  onclick="getnum('.')">.</button>
+        <button type="button" class="button btn btn-outline-info" onclick="getnum('0')">0</button>
+        <button type="button" class="button1 btn btn-outline-warning" onclick="fullresult()">=</button>
+    </div>
+</div>
+</center>  
+<script src="app.js"></script>    
+</body>
+</html>
