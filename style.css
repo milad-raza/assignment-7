@@ -22,7 +22,7 @@ body{
     
 }
 .input{
-    width: 290px;
+    width: 35px;
     margin: 20px 3px 20px 3px;
     background-color: rgb(221, 201, 201);
     border-radius: 7px;
@@ -33,5 +33,9 @@ body{
 }
 .button1{
     width: 140px;
+    margin: 3px;
+}
+.button2{
+    width: 280px;
     margin: 3px;
 }

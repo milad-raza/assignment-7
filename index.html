@@ -13,13 +13,19 @@
     <h2>*CALCULATOR*</h2>
 </div>  
 <div class="main">
+    <div class="input-group mb-2">
+        <input id="onclick" type="text" class="form-control input"  aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-danger input" type="button" onclick="value4()">X</button>
+        </div>
+    </div>
     <div>
-        <input id="onclick" type="text" class="input">
+        <button type="button" class="button2 btn btn-outline-danger" onclick="clearall()">C</button>
     </div>
     <div>
         <button type="button" class="button btn btn-outline-primary" onclick="getnum('(')">(</button>
         <button type="button" class="button btn btn-outline-primary" onclick="getnum(')')">)</button>
-        <button type="button" class="button btn btn-outline-danger" onclick="clearall()">C</button>
+        <button type="button" class="button btn btn-outline-primary" onclick="value5()">x<sup>2</sup></sup></button>
         <button type="button" class="button btn btn-outline-success" onclick="getnum('+')">+</button>
     </div>
     <div>
